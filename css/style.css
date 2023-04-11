@@ -1,0 +1,57 @@
+.navbar_ , .footer_{
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(0, 0, 255);
+    float: left;
+}
+
+.navbar_{
+    margin: 0 0 2.5vh 0;
+}
+
+.footer_{
+    background-color: rgb(2, 96, 2);
+    margin-top: 2.5vh;
+}
+
+.nav_{
+    width: 100%;
+    min-height: 75vh;
+    background-color: rgb(7, 120, 113);
+    float: left;
+}
+
+.content_{
+    width: 100%;
+    min-height: 75vh;
+    background-color: rgb(226, 20, 34);
+    float: left;
+}
+
+.sidebar_{
+    width: 100%;
+    min-height: 75vh;
+    background-color: rgb(173, 173, 0);
+    float: left;
+}
+
+.border_box {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_ , .content_ , .sidebar_{
+        background-color: rgb(223, 216, 15);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .nav_ , .content_ , .sidebar_{
+        min-height: calc((70vh/3));
+        background-color: rgb(129, 126, 126);
+    }
+
+    .content_{
+        margin: 2.5vh 0;
+    }
+}
